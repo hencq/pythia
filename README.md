@@ -1,14 +1,10 @@
-# query
+# Pythia
 
-A Clojure library designed to ... well, that part is up to you.
+A simple datalog query system. At the moment this is not much more than an experiment to build a simple datalog parser.
 
-## Usage
-
-FIXME
 
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017 
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License either version 1.0 or any later version.
