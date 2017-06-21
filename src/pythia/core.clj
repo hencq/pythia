@@ -78,6 +78,10 @@
 
 ;; *** Basic binary join algorithm ***
 
+(defn pattern-index [pattern]
+  (into {}
+        (map-indexed #(vector %2 %1) (filter qvar? pattern))))
+
 (defn relation
   "Build a relation out of a pattern, which is simply a scan + a mapping from qvar to
    position in the pattern."
